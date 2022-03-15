@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonger.Console.Sender", "Wonger_Sender\Wonger.Console.Sender.csproj", "{54F0B941-558D-4FDA-B013-C2281B080955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.Console.Reciever", "Wonga_Reciever\Wonga.Console.Reciever.csproj", "{1A464470-DA87-4EE8-AA0A-794899583150}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.RabbitMQ.Model", "Wonga.Model\Wonga.RabbitMQ.Model.csproj", "{B04619B9-53D2-40AD-BFEF-77257F296B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.RabbitMQ.Services", "Wonga.Services\Wonga.RabbitMQ.Services.csproj", "{846D4019-1419-4E6F-98B3-D177C72FABE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wonga.RabbitMQ.Tests", "Wonga.Tests\Wonga.RabbitMQ.Tests.csproj", "{D2D224D8-EA6B-4C0C-A097-13D1D7BDEAEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54F0B941-558D-4FDA-B013-C2281B080955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F0B941-558D-4FDA-B013-C2281B080955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F0B941-558D-4FDA-B013-C2281B080955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F0B941-558D-4FDA-B013-C2281B080955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A464470-DA87-4EE8-AA0A-794899583150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A464470-DA87-4EE8-AA0A-794899583150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A464470-DA87-4EE8-AA0A-794899583150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A464470-DA87-4EE8-AA0A-794899583150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04619B9-53D2-40AD-BFEF-77257F296B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04619B9-53D2-40AD-BFEF-77257F296B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04619B9-53D2-40AD-BFEF-77257F296B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04619B9-53D2-40AD-BFEF-77257F296B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846D4019-1419-4E6F-98B3-D177C72FABE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846D4019-1419-4E6F-98B3-D177C72FABE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846D4019-1419-4E6F-98B3-D177C72FABE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846D4019-1419-4E6F-98B3-D177C72FABE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D224D8-EA6B-4C0C-A097-13D1D7BDEAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D224D8-EA6B-4C0C-A097-13D1D7BDEAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D224D8-EA6B-4C0C-A097-13D1D7BDEAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D224D8-EA6B-4C0C-A097-13D1D7BDEAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F491799-E12F-48A3-ABB7-5B204E9C3777}
+	EndGlobalSection
+EndGlobal
